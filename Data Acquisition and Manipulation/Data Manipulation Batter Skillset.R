@@ -1,6 +1,6 @@
 library(dplyr)
 
-setwd("/Users/billyohandley/Downloads/Cardinals Project/Data")
+setwd("/path/Data")
 
 fielding_stats <- read.csv("2024_Fielding_Stats.csv")
 
