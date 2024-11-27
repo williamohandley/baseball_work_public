@@ -76,7 +76,7 @@ for (pos in positions) {
 
 View(fielding_stats %>% group_by(Pos) %>% summarise(n = n()))
 
-setwd("/Users/billyohandley/Downloads/Cardinals Project/Data")
+setwd("/Path/Data")
 
 #saving them off so that we can access all of this much more easily 
 
