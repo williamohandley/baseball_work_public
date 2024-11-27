@@ -56,7 +56,7 @@ View(all_pitches %>% group_by(game_date) %>% summarise(n = n()))
 all_pitches <- all_pitches %>% 
   dplyr::filter(game_date < "2024-10-01")
 
-setwd("/Users/billyohandley/Downloads/Cardinals Project/Data")
+setwd("/path/Data")
 
 #saving them off so that we can access all of this much more easily 
 
@@ -75,8 +75,6 @@ for (pos in positions) {
 }
 
 View(fielding_stats %>% group_by(Pos) %>% summarise(n = n()))
-
-setwd("/Users/billyohandley/Downloads/Cardinals Project/Data")
 
 #saving them off so that we can access all of this much more easily 
 
