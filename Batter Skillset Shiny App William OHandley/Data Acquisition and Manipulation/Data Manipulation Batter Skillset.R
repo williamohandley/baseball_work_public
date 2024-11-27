@@ -1,6 +1,6 @@
 library(dplyr)
 
-setwd("/Users/billyohandley/Downloads/Cardinals Project/Data")
+setwd("/Path/Data")
 
 fielding_stats <- read.csv("2024_Fielding_Stats.csv")
 
@@ -428,7 +428,7 @@ all_information_for_shiny_app <- results_by_pitch_type_wide %>%
   inner_join(fielding_stats %>% rename(batter = xMLBAMID), by = "batter")
 
 
-setwd("/Users/billyohandley/Downloads/Cardinals Project/Data")
+setwd("/Path/Data")
 
 #saving all the manipulated data off! 
 
